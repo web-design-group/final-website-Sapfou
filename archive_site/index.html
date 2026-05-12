@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Издательство «Архив»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <div class="page">
+    <header class="header">
+      <a href="index.html" class="logo-wrap">
+        <img src="images/logo.svg" alt="Логотип" class="logo">
+        <div class="logo-text">Издательство «Архив»</div>
+      </a>
+      <div class="search-box">
+        <input type="text" placeholder="">
+        <img src="images/serch.svg" alt="Поиск" class="search-img">
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="partners.html">Партнеры</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="events.html">Новости и события</a>
+      <button type="button" data-modal="contact">Сотрудничество</button>
+    </nav>
+
+    <section class="hero">
+      <img src="images/biblioteka.jpg" alt="Библиотека" class="hero-image">
+      <div class="hero-about">
+        <h1>Кто мы?</h1>
+        <p>Издательство «Архив» - образовательное издательство о культуре, истории и искусстве России.</p>
+        <p>Каждый месяц мы проводим интересные мероприятия и делаем вас ближе к родной культуре.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title-non">События в январе</div>
+      <div class="events-grid">
+        <a href="event.html" class="event-card">
+          <h3>Ко Дню рождения А. П. Чехова</h3>
+          <p>Дарим подарки при покупке книг от партнеров.</p>
+          <div class="event-date">15.01 - 5.02</div>
+          <img class="event-image" src="images/k4.jpg" alt="Ко дню рождения Чехова">
+        </a>
+        <a href="event.html" class="event-card">
+          <h3>Лекция «Малые Петербуржцы»</h3>
+          <p>Благотворительная лекция совместно с фондом «Арт-Молодость».</p>
+          <div class="event-date">23.01</div>
+          <img class="event-image" src="images/k5.jpg" alt="Лекция Малые Петербуржцы">
+        </a>
+        <a href="event.html" class="event-card">
+          <h3>Лекция «Вера и религия Достоевского»</h3>
+          <p></p>
+          <div class="event-date">9.02</div>
+          <img class="event-image" src="images/k6.jpg" alt="Лекция о Достоевском">
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Топ-3 книг месяца</div>
+      <div class="drag-carousel" data-drag-carousel>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k1.jpg" alt="Мемуары">
+          <div class="book-info">
+            <h2>Мемуары</h2>
+            <p>«Я не могу видеть чистого пера без того, чтобы не испытывать желания немедленно окунуть его в чернила», – честно признавалась Екатерина II в своих мемуарах, которые были запрещены в царской России.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k2.jpg" alt="Вокруг Чехова">
+          <div class="book-info">
+            <h2>Вокруг Чехова</h2>
+            <p>В книге собраны воспоминания об Антоне Павловиче Чехове и его окружении, принадлежащие родным писателя — брату, сестре, племянникам, а также мемуары о чеховской семье.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k3.jpg" alt="История русской музыки">
+          <div class="book-info-last">
+            <h2>История русской музыки</h2>
+            <p>В данный сборник вошли три книги, и ныне являющиеся библиографической редкостью, поскольку не переиздавались с момента первой публикации в середине 20-х годов XX века.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Бестселлеры</div>
+      <div class="drag-carousel" data-drag-carousel>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k2.jpg" alt="Вокруг Чехова">
+          <div class="book-info">
+            <h2>Вокруг Чехова</h2>
+            <p>В книге собраны воспоминания об Антоне Павловиче Чехове и его окружении, принадлежащие родным писателя — брату, сестре, племянникам, а также мемуары о чеховской семье.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k1.jpg" alt="Мемуары">
+          <div class="book-info">
+            <h2>Мемуары</h2>
+            <p>«Я не могу видеть чистого пера без того, чтобы не испытывать желания немедленно окунуть его в чернила», – честно признавалась Екатерина II в своих мемуарах, которые были запрещены в царской России.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k3.jpg" alt="История русской музыки">
+          <div class="book-info-last">
+            <h2>История русской музыки</h2>
+            <p>В данный сборник вошли три книги, и ныне являющиеся библиографической редкостью, поскольку не переиздавались с момента первой публикации в середине 20-х годов XX века.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Скоро в издании</div>
+      <div class="drag-carousel" data-drag-carousel>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k3.jpg" alt="История русской музыки">
+          <div class="book-info-last">
+            <h2>История русской музыки</h2>
+            <p>В данный сборник вошли три книги, и ныне являющиеся библиографической редкостью, поскольку не переиздавались с момента первой публикации в середине 20-х годов XX века.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k2.jpg" alt="Вокруг Чехова">
+          <div class="book-info">
+            <h2>Вокруг Чехова</h2>
+            <p>В книге собраны воспоминания об Антоне Павловиче Чехове и его окружении, принадлежащие родным писателя — брату, сестре, племянникам, а также мемуары о чеховской семье.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+        <div class="book-feature draggable-card">
+          <img class="book-cover" src="images/k1.jpg" alt="Мемуары">
+          <div class="book-info">
+            <h2>Мемуары</h2>
+            <p>«Я не могу видеть чистого пера без того, чтобы не испытывать желания немедленно окунуть его в чернила», – честно признавалась Екатерина II в своих мемуарах, которые были запрещены в царской России.</p>
+            <a class="button" href="product.html">Купить</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-banner">
+      <h2>Хотите издаваться у нас? <button type="button" class="contact-link" data-modal="contact">Свяжитесь с нами</button></h2>
+    </section>
+
+    <footer class="footer">
+      <h2>Контактная информация</h2>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <button type="button" class="footer-support" data-modal="contact">Служба поддержки</button>
+          <p class="footer-label">Телефон</p>
+          <p>+7 (000) 000-00-00</p>
+        </div>
+        <div class="footer-col">
+          <button type="button" class="footer-link" data-modal="subscribe">Подписаться на рассылку<br>о наших новинках</button>
+        </div>
+        <div class="footer-col">
+          <h3>Наши социальные сети</h3>
+          <div class="socials">
+            <img class="soc" src="images/tg.png" alt="Телеграм">
+            <img class="soc" src="images/vk.png" alt="ВКонтакте">
+            <img class="soc" src="images/inst.png" alt="Инстаграм">
+          </div>
+          <p class="copyright">© 2025</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="modal-overlay">
+    <div class="modal">
+      <button type="button" class="modal-close">×</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

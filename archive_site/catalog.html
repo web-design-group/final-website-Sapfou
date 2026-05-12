@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог — Издательство «Архив»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a href="index.html" class="logo-wrap">
+        <img src="images/logo.svg" alt="Логотип" class="logo">
+        <div class="logo-text">Издательство «Архив»</div>
+      </a>
+      <div class="search-box">
+        <input type="text" placeholder="">
+        <img src="images/serch.svg" alt="Поиск" class="search-img">
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="partners.html">Партнеры</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="events.html">Новости и события</a>
+      <button type="button" data-modal="contact">Сотрудничество</button>
+    </nav>
+
+    <section class="page-title-block">
+      <div class="page-title-row">
+        <h1 class="page-title">Каталог</h1>
+        <a href="index.html" class="back-link">Вернуться на главную</a>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="catalog-controls">
+        <input class="catalog-search" type="text" placeholder="Поиск литературы..." data-catalog-search>
+        <button type="button" class="genre-button" data-genre-button>Жанр</button>
+        <div class="genre-menu" data-genre-menu>
+          <button type="button">Биографии и мемуары</button>
+          <button type="button">Искусство</button>
+          <button type="button">Культура</button>
+          <button type="button">История</button>
+          <button type="button">Политика</button>
+          <button type="button">Социология</button>
+          <button type="button">Философия</button>
+          <button type="button">Педагогика</button>
+        </div>
+      </div>
+      <div class="catalog-label">Результаты поиска</div>
+      <div class="catalog-grid">
+          <a href="product.html" class="catalog-card">
+            <img src="images/k1.jpg" alt="Мемуары">
+            <h3>Мемуары</h3>
+            <p>Екатерина Великая</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k2.jpg" alt="Вокруг Чехова">
+            <h3>Вокруг Чехова</h3>
+            <p>М. П. Чехов</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k3.jpg" alt="История русской муз...">
+            <h3>История русской муз...</h3>
+            <p>Л. Л. Сабанеев</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k4.jpg" alt="Русское средневеко...">
+            <h3>Русское средневеко...</h3>
+            <p>М. Рабинович</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k5.jpg" alt="Россия в кино. Образ...">
+            <h3>Россия в кино. Образ...</h3>
+            <p>В. Тиркова</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k6.jpg" alt="Рыжий">
+            <h3>Рыжий</h3>
+            <p>С. Минаев</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k1.jpg" alt="Музыка и музыканты">
+            <h3>Музыка и музыканты</h3>
+            <p>И. Андроников</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k2.jpg" alt="В мире Егора Летова...">
+            <h3>В мире Егора Летова...</h3>
+            <p>Ю. Доманский</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k3.jpg" alt="Не могу молчать">
+            <h3>Не могу молчать</h3>
+            <p>А. Н. Толстой</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k4.jpg" alt="Большой балет. Истор...">
+            <h3>Большой балет. Истор...</h3>
+            <p>Г. Верховский</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k5.jpg" alt="Этика">
+            <h3>Этика</h3>
+            <p>К. Станиславский</p>
+          </a>
+          <a href="product.html" class="catalog-card">
+            <img src="images/k6.jpg" alt="Звездный враг">
+            <h3>Звездный враг</h3>
+            <p>А. Шелехов</p>
+          </a>
+      </div>
+      <div class="pagination">
+        <button type="button" class="pagination-arrow">←</button>
+        <button type="button" class="pagination-button">1</button>
+        <button type="button" class="pagination-button">2</button>
+        <button type="button" class="pagination-button">3</button>
+        <button type="button" class="pagination-button">10</button>
+        <button type="button" class="pagination-arrow">→</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h2>Контактная информация</h2>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <button type="button" class="footer-support" data-modal="contact">Служба поддержки</button>
+          <p class="footer-label">Телефон</p>
+          <p>+7 (000) 000-00-00</p>
+        </div>
+        <div class="footer-col">
+          <button type="button" class="footer-link" data-modal="subscribe">Подписаться на рассылку<br>о наших новинках</button>
+        </div>
+        <div class="footer-col">
+          <h3>Наши социальные сети</h3>
+          <div class="socials">
+            <img class="soc" src="images/tg.png" alt="Телеграм">
+            <img class="soc" src="images/vk.png" alt="ВКонтакте">
+            <img class="soc" src="images/inst.png" alt="Инстаграм">
+          </div>
+          <p class="copyright">© 2025</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="modal-overlay">
+    <div class="modal">
+      <button type="button" class="modal-close">×</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
