@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>События — Издательство «Архив»</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a href="index.html" class="logo-wrap">
+        <img src="images/logo.svg" alt="Логотип" class="logo">
+        <div class="logo-text">Издательство «Архив»</div>
+      </a>
+      <div class="search-box">
+        <input type="text" placeholder="">
+        <img src="images/serch.svg" alt="Поиск" class="search-img">
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="partners.html">Партнеры</a>
+      <a href="catalog.html">Каталог</a>
+      <a href="events.html">Новости и события</a>
+      <button type="button" data-modal="contact">Сотрудничество</button>
+    </nav>
+
+    <section class="page-title-block">
+      <div class="page-title-row">
+        <h1 class="page-title">События</h1>
+        <a href="index.html" class="back-link">Вернуться на главную</a>
+      </div>
+    </section>
+
+    <section class="events-section">
+      <div class="events-grid">
+        <a href="event.html" class="event-card">
+          <h2>Ко Дню рождения А. П. Чехова</h2>
+          <p>Дарим подарки при покупке книг от партнеров.</p>
+          <div class="event-date">15.01 - 5.02</div>
+          <img class="event-image" src="images/k4.jpg" alt="Ко дню рождения Чехова">
+        </a>
+        <a href="event.html" class="event-card">
+          <h2>Лекция «Малые Петербуржцы»</h2>
+          <p>Благотворительная лекция совместно с фондом «Арт-Молодость».</p>
+          <div class="event-date">23.01</div>
+          <img class="event-image" src="images/k5.jpg" alt="Лекция Малые Петербуржцы">
+        </a>
+        <a href="event.html" class="event-card">
+          <h2>Лекция «Вера и религия Достоевского»</h2>
+          <p></p>
+          <div class="event-date">9.02</div>
+          <img class="event-image" src="images/k6.jpg" alt="Лекция о Достоевском">
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h2>Контактная информация</h2>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <button type="button" class="footer-support" data-modal="contact">Служба поддержки</button>
+          <p class="footer-label">Телефон</p>
+          <p>+7 (000) 000-00-00</p>
+        </div>
+        <div class="footer-col">
+          <button type="button" class="footer-link" data-modal="subscribe">Подписаться на рассылку<br>о наших новинках</button>
+        </div>
+        <div class="footer-col">
+          <h3>Наши социальные сети</h3>
+          <div class="socials">
+            <img class="soc" src="images/tg.png" alt="Телеграм">
+            <img class="soc" src="images/vk.png" alt="ВКонтакте">
+            <img class="soc" src="images/inst.png" alt="Инстаграм">
+          </div>
+          <p class="copyright">© 2025</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="modal-overlay">
+    <div class="modal">
+      <button type="button" class="modal-close">×</button>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
